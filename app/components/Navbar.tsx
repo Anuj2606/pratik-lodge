@@ -56,6 +56,14 @@ export default function Navbar() {
           <button onClick={() => goToSection('location')} className="hover:text-yellow-500 hover:scale-105 transition-all delay-150 duration-100 ease-in-out cursor-pointer uppercase">
             Location
           </button>
+          <Link href="/recommendations">
+            <button className="hover:text-yellow-500 hover:scale-105 transition-all delay-150 duration-100 ease-in-out cursor-pointer uppercase flex items-center gap-1">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-4 h-4">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" />
+              </svg>
+              Recommendations
+            </button>
+          </Link>
         </div>
 
         <div className="hidden md:flex items-center">
@@ -94,6 +102,14 @@ export default function Navbar() {
           <button onClick={() => goToSection('facilities')} className="uppercase">Facilities & Services</button>
           <button onClick={() => goToSection('gallery')} className="uppercase">Gallery</button>
           <button onClick={() => goToSection('location')} className="uppercase">Location</button>
+          <Link href="/recommendations">
+            <button className="uppercase flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-4 h-4">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" />
+              </svg>
+              Recommendations
+            </button>
+          </Link>
 
           <Link href="/contact">
             <button className="px-6 py-2 text-center uppercase border border-[#3C3C3C] rounded-3xl mx-auto block">
