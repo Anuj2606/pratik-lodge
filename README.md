@@ -1,4 +1,4 @@
-# Pratik Lodge – AI Powered Lodge Booking Website
+# Pratik Lodge – Lodge Booking Website
 
 This is a Next.js lodge booking web application for **Pratik Lodge** deployed on Vercel.  
 Users can browse rooms, receive AI-based room recommendations, and book rooms online with automated confirmation emails.
