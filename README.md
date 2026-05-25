@@ -136,24 +136,3 @@ app/
  ├── recommendations/
  └── page.tsx
 ```
-
----
-
-## Deployment
-
-This project is deployed using **Vercel**.
-
-Deployment steps:
-
-1. Push project to GitHub
-2. Connect repository to Vercel
-3. Deploy the project
-
----
-
-## Author
-
-Anuj Sawant  
-BTech Computer Science Engineering 
-
-GitHub: https://github.com/Anuj2606
